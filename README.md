@@ -17,12 +17,6 @@
 {
     [self dispatchInMainThread:^{
         [MBProgressHUD hideHUDForView:self.view animated:YES];
-        NSString * str = @"";
-        NSDictionary * data_  = data;
-        for (NSString * str_ in data_.allValues) {
-          str = [str stringByAppendingFormat:@"%@",str_];
-        }
-        [self showAlert:str andDisAppearAfterDelay:2];
     } Delay:0.5];
    
 }
