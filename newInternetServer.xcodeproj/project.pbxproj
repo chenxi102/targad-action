@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12ABF35EFF8F79362629648C /* libPods-newInternetServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61A8A0003C45AC77739660B2 /* libPods-newInternetServer.a */; };
 		5D8268561C7EEB1B00986D5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8268551C7EEB1B00986D5E /* main.m */; };
 		5D8268591C7EEB1B00986D5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8268581C7EEB1B00986D5E /* AppDelegate.m */; };
 		5D82685C1C7EEB1B00986D5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D82685B1C7EEB1B00986D5E /* ViewController.m */; };
@@ -27,6 +28,7 @@
 		5D82689C1C7EF33B00986D5E /* ExampleApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D82689B1C7EF33B00986D5E /* ExampleApi.m */; };
 		5D8268A21C7EFF2500986D5E /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D82689F1C7EFF2500986D5E /* MBProgressHUD+Add.m */; };
 		5D8268A31C7EFF2500986D5E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8268A11C7EFF2500986D5E /* MBProgressHUD.m */; };
+		A103A893DDFF5C23BAF1DB4B /* libPods-newInternetServerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD0B9D51D17A47EC395EE2F /* libPods-newInternetServerTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0797CC2F8A430EFB1F8BCA43 /* Pods-newInternetServerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newInternetServerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-newInternetServerTests/Pods-newInternetServerTests.release.xcconfig"; sourceTree = "<group>"; };
+		1CD0B9D51D17A47EC395EE2F /* libPods-newInternetServerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-newInternetServerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E048B3C5836D8694DD8109 /* Pods-newInternetServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newInternetServer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-newInternetServer/Pods-newInternetServer.debug.xcconfig"; sourceTree = "<group>"; };
 		5D8268511C7EEB1B00986D5E /* newInternetServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newInternetServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8268551C7EEB1B00986D5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5D8268571C7EEB1B00986D5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,6 +85,9 @@
 		5D82689F1C7EFF2500986D5E /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
 		5D8268A01C7EFF2500986D5E /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		5D8268A11C7EFF2500986D5E /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		61A8A0003C45AC77739660B2 /* libPods-newInternetServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-newInternetServer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA85355BCC046A4B8D5F4ED /* Pods-newInternetServerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newInternetServerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-newInternetServerTests/Pods-newInternetServerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E82B5379A5B74970F23BD965 /* Pods-newInternetServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newInternetServer.release.xcconfig"; path = "Pods/Target Support Files/Pods-newInternetServer/Pods-newInternetServer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12ABF35EFF8F79362629648C /* libPods-newInternetServer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A103A893DDFF5C23BAF1DB4B /* libPods-newInternetServerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +116,8 @@
 				5D8268531C7EEB1B00986D5E /* newInternetServer */,
 				5D82686D1C7EEB1B00986D5E /* newInternetServerTests */,
 				5D8268521C7EEB1B00986D5E /* Products */,
+				E0BA3591C9ECA02B3C217777 /* Pods */,
+				EF6E578303CF892DF86ED5AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -202,6 +214,26 @@
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
+		E0BA3591C9ECA02B3C217777 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42E048B3C5836D8694DD8109 /* Pods-newInternetServer.debug.xcconfig */,
+				E82B5379A5B74970F23BD965 /* Pods-newInternetServer.release.xcconfig */,
+				DCA85355BCC046A4B8D5F4ED /* Pods-newInternetServerTests.debug.xcconfig */,
+				0797CC2F8A430EFB1F8BCA43 /* Pods-newInternetServerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF6E578303CF892DF86ED5AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61A8A0003C45AC77739660B2 /* libPods-newInternetServer.a */,
+				1CD0B9D51D17A47EC395EE2F /* libPods-newInternetServerTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -209,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D8268731C7EEB1B00986D5E /* Build configuration list for PBXNativeTarget "newInternetServer" */;
 			buildPhases = (
+				F446EB8C3EF13CA6E6274B51 /* [CP] Check Pods Manifest.lock */,
 				5D82684D1C7EEB1B00986D5E /* Sources */,
 				5D82684E1C7EEB1B00986D5E /* Frameworks */,
 				5D82684F1C7EEB1B00986D5E /* Resources */,
+				6ECEC8509C4991979E78C1F7 /* [CP] Embed Pods Frameworks */,
+				3C278FDCDC44C81252B8F450 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D8268761C7EEB1B00986D5E /* Build configuration list for PBXNativeTarget "newInternetServerTests" */;
 			buildPhases = (
+				23AF5F9706293F7452329E0E /* [CP] Check Pods Manifest.lock */,
 				5D8268661C7EEB1B00986D5E /* Sources */,
 				5D8268671C7EEB1B00986D5E /* Frameworks */,
 				5D8268681C7EEB1B00986D5E /* Resources */,
+				F1BD60804A4CA41D96A673F1 /* [CP] Embed Pods Frameworks */,
+				BFF28915ED15CB43D26E8ACC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -296,6 +334,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23AF5F9706293F7452329E0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C278FDCDC44C81252B8F450 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-newInternetServer/Pods-newInternetServer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ECEC8509C4991979E78C1F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-newInternetServer/Pods-newInternetServer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFF28915ED15CB43D26E8ACC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-newInternetServerTests/Pods-newInternetServerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1BD60804A4CA41D96A673F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-newInternetServerTests/Pods-newInternetServerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F446EB8C3EF13CA6E6274B51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5D82684D1C7EEB1B00986D5E /* Sources */ = {
@@ -443,6 +574,7 @@
 		};
 		5D8268741C7EEB1B00986D5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E048B3C5836D8694DD8109 /* Pods-newInternetServer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = newInternetServer/Info.plist;
@@ -454,6 +586,7 @@
 		};
 		5D8268751C7EEB1B00986D5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E82B5379A5B74970F23BD965 /* Pods-newInternetServer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = newInternetServer/Info.plist;
@@ -465,6 +598,7 @@
 		};
 		5D8268771C7EEB1B00986D5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA85355BCC046A4B8D5F4ED /* Pods-newInternetServerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = newInternetServerTests/Info.plist;
@@ -477,6 +611,7 @@
 		};
 		5D8268781C7EEB1B00986D5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0797CC2F8A430EFB1F8BCA43 /* Pods-newInternetServerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = newInternetServerTests/Info.plist;
