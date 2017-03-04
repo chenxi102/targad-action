@@ -1,17 +1,16 @@
 Pod::Spec.new do |s|
   s.name         = "targad-action"
   s.version      = "0.0.1"
-  s.summary      = "A short description of targad-action."
+  s.summary      = "targad-action."
 
 
-  s.description  = <<-DESC
-                   DESC
-  s.homepage     = "http://EXAMPLE/targad-action"
+  s.description  = "tdescription of argad-action"
+  s.homepage     = "https://github.com/chenxi102/targad-action"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
   s.author             = { "cx" => "chenxi@detu.com" }
   # Or just: s.author    = "cx"
@@ -28,13 +27,13 @@ Pod::Spec.new do |s|
   # s.tvos.deployment_target = "9.0"
 
 
-  s.source       = { :git => "http://EXAMPLE/targad-action.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/chenxi102/targad-action.git", :tag => "#{s.version}" }
 
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "Services", "newInternetServer/Servicebase/**/*.{h,m}"
+  #s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "newInternetServer/Servicebase/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
