@@ -1,10 +1,12 @@
+
+
 Pod::Spec.new do |s|
   s.name         = "targad-action"
   s.version      = "0.0.1"
   s.summary      = "targad-action."
 
 
-  s.description  = "tdescription of argad-action"
+  s.description  = "test of argad-action"
   s.homepage     = "https://github.com/chenxi102/targad-action"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
@@ -12,22 +14,21 @@ Pod::Spec.new do |s|
   #s.license      = "MIT"
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
-  s.author             = { "cx" => "chenxi@detu.com" }
+  s.author             = { "cx" => "355567207@qq.com" }
   # Or just: s.author    = "cx"
-  # s.authors            = { "cx" => "chenxi@detu.com" }
+  # s.authors            = { "cx" => "355567207@qq.com" }
   # s.social_media_url   = "http://twitter.com/cx"
 
-  s.platform     = :ios
   s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+  s.ios.deployment_target = "7.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
 
-  s.source       = { :git => "https://github.com/chenxi102/targad-action.git", :tag => "#{s.version}" }
+  s.source       = { :git => "git@github.com:chenxi102/targad-action.git", :tag => "#{s.version}" }
 
 
   s.source_files  = "Services", "newInternetServer/Servicebase/**/*.{h,m}"
