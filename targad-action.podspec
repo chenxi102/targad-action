@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   # s.tvos.deployment_target = "9.0"
 
 
-  s.source       = { :git => "git@github.com:chenxi102/targad-action.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/chenxi102/targad-action.git", :tag => "#{s.version}" }
 
 
   s.source_files  = "Services", "newInternetServer/Servicebase/**/*.{h,m}"
